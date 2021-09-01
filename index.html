@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        .todo-item[status="completed"] {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="todo-editor" />
+        <button id="add-btn">Add</button>
+        <button id="mark-all-as-completed-btn">Mark All as completed</button>
+    </div>
+    <ol id="todo-list">
+        <!-- <li class="todo-item" id="todo-1">
+            <span> Make Sample Videos </span>
+            <button>Edit</button>
+            <button>Delete</button>
+            <button onclick="markAsCompleted('todo-1')">Mark As Completed</button>
+        </li>
+        <li class="todo-item" id="todo-2">
+            <span>Prepare Sample Videos</span>
+            <button>Edit</button>
+            <button>Delete</button>
+            <button onclick="markAsCompleted('todo-2')">Mark As Completed</button>
+        </li>
+        <li class="todo-item" id="todo-3" status="completed">
+            <span>Check Sample Videos</span>
+            <button>Edit</button>
+            <button>Delete</button>
+            <button onclick="markAsCompleted('todo-3')">Mark As Completed</button>
+        </li> -->
+    </ol>
+</body>
+<script src="javascript/todo.js"></script>
+
+</html>
